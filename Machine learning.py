@@ -11,7 +11,9 @@ class DecisionTree():
         self.tree = {}
         tol = .90
         res = [self.best_attr_str(data,k) if isinstance(data[0][k],str) else self.best_attr_int(data,k) for k in [x if x < 2 else x+1 for x in range(13)]]
-        tree.
+        print(res)
+	
+	# I am not decided on the data type yet, but the above is the way in which I choose the critera
                 
     def best_attr_str(self,rows, column):
         values = list(set([x[column] for x in rows]))
