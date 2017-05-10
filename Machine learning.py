@@ -1,14 +1,9 @@
-# CSE6242/CX4242 Homework 4 Pseudocode
-# You can use this skeleton code for Task 1 of Homework 4.
-# You don't have to use this code. You can implement your own code from scratch if you want.
+
 
 import csv
 
 
-# Implement your decision tree below
 class DecisionTree():
-    # the data structure is as follows, a decision tree is a column index, a value and two decision
-    # trees, 
     
     tree ={}
      
